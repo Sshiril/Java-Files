@@ -26,8 +26,14 @@ public class Determining_Min_in_a_Array {
       
 
 
-      System.out.println("The Mininmum value is " + Min);
+      //System.out.println("The Mininmum value is " + Min);
     
   }
+        
+        //this shoud be outside of for loop otherwise you'll see min printed on multiple times.
+        
+        
+      System.out.println("The Mininmum value is " + Min);
+    
   }
 }
